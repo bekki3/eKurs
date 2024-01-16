@@ -1,0 +1,344 @@
+body{
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+section{
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 1px 1px 1px white;
+}
+section p{
+    width: 35%;
+    text-align: left;
+    padding-left: 5%;
+    float: left;
+    padding-top: 0%;
+}
+section a{
+    color: rgb(110, 110, 110);
+    float: left;
+    margin: 3px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: .3s;
+    padding: 5px 7px;
+    font-size: 18px;
+}
+section a:hover{
+    background: rgb(66, 66, 66);
+    color: white;
+    border-radius: 13px;
+}
+section a:active{
+    background: rgb(66, 66, 66);
+    color: white;
+    border-radius: 13px;
+    opacity: 70%;
+}
+#header{
+    background:rgb(255, 255, 255);
+    height: 36vw;
+    position: relative;
+}
+#intro iframe{
+    position:absolute;
+    top: 0%;
+    left: 4%;
+    width: 43%;
+    height: 65%;
+    border-radius: 6px;
+}
+#laptopImg{
+    width: 45%;
+    transition: 0.3s;
+    right: 10%;
+    top: 20%;
+    position: absolute;
+    z-index: 1;
+}
+#laptopImg:hover{
+    width: 48%;
+}
+#cssIcon{
+    top: 8%;
+    right: 31%;
+    width: 10%;
+    position: absolute;
+    transition: 0.2s;
+}
+#cssIcon:hover{
+    width: 11%;
+}
+#htmlIcon{
+    position: absolute;
+    width: 11%;
+    right: 3%;
+    bottom: 4%;
+    transition: 0.2s;
+}
+#htmlIcon:hover{
+    width: 12%;
+}
+#jsIcon{
+    width: 11%;
+    position: absolute;
+    right: 6%;
+    top: 8%;
+    transition: 0.3s;
+}
+#jsIcon:hover{
+    width: 12%;
+}
+#textImg{
+    font-size: 3vw;
+    position: absolute;
+    left: 4%;
+    width: 50%;
+    bottom: 3%;
+    font-family: 'Montserrat', sans-serif;
+}
+#tagIcon{
+    margin-top: 2%;
+    width: 22%;
+    transition: 0.3s;
+}
+#tagIcon:hover{
+    width: 23%;
+}
+#folderContainer{
+    padding: 0px;
+    padding-bottom: 20px;
+    font-size: 3vw;
+    font-weight: 700;
+    transition: 0.3s;
+    width: 96%;
+    margin: auto;
+    background:#14213D;
+    background-size:cover;
+}
+#folderContainer a{
+    text-decoration: none;
+    color: white;
+}
+.folder{
+    float: left;
+    border-radius: 20px;
+    width: 19%;
+    height: 26vw;
+    margin:  1% 3%;
+    padding: 4%;
+    text-align: center;
+    transition: 0.3s;
+}
+.folder:hover{
+    padding: 4% 5%;
+    margin:  1% 2%;
+    margin-left: 2%;
+}
+.folder p{
+    width: fit-content;
+}
+.folder img{
+    float: center;
+    width: 60%;
+}
+#htmlFolder{
+    background-image: url(images/HTML.png);
+    background-size: cover;
+}
+#cssFolder{
+    background-image: url(images/CSS.png);
+    background-size: cover;
+}
+#jsFolder{
+    background-image: url(images/JS.png);
+    background-size: cover;
+    background-position: center;
+}
+#goFolder{
+    text-align: center;
+    background-image: url(images/GO.png);
+    background-size: contain;
+    background-position: center;
+    border: 2px solid #00ffff;
+    color: rgb(75, 75, 75);
+}
+#topikFolder{
+    background-image: url("images/topikBG2.jpg");
+    background-size: cover;
+}
+#koreanFolder{
+    background-image: url(images/koreanIcon.jpg);
+    background-size: cover;
+}
+#englishFolder{
+    background-image: url(images/englishBG.jpg);
+    background-size: cover;
+}
+#koreanFolder img{
+    width: 120%;
+    margin-top: 40px;
+}
+#ieltsFolder{
+    background-color: rgb(221, 4, 43);    
+}
+#ieltsFolder img{
+    width: 80%;
+}
+#ieltsFolder p{
+    margin-top: 0%;
+}
+#learnLans{
+    background-image: url("images/lansIcon.jpg");
+    background-size: cover;
+}
+#learnLans p{
+    margin: 0%;
+    text-align: center;
+    margin-top: 75%;
+    font-size: 3.3vw;
+}
+#osonEn{
+    background-image: url(images/osonEn.jpg);
+    background-position: center;
+    background-size:cover;
+}
+#figmaFolder{
+    background: rgb(255, 255, 255);
+    color: #555;
+}
+#figmaFolder img{
+    width: 100%;
+}
+#sketchupFolder{
+    color: #ffffff;
+    background: rgb(0, 95, 158);
+    position: relative;
+}
+#sketchupFolder p{
+    margin: auto;
+    margin-top:2%;
+    position: absolute;
+    left:0;
+}
+#footer{
+    background-image: url("images/taggedBg.png");
+    background-repeat: repeat;
+    height: 22vmax;
+    background-size:auto;
+    padding: 0%;
+ 
+}
+#media{width: fit-content; margin: auto; 
+    height: 36px; border-radius: 15px; 
+    transition: 0.5s;}
+#media ul{margin: auto; padding: 0%;}
+#media img{width: 3vmax; padding: 3px;}
+#media li{ float: left; list-style: none; margin: 0 7px;}
+#media a:hover{opacity: 70%; transition: 0.3s}
+#media a:active{opacity: 40%;}
+
+
+
+#copyright{
+    font-size: 1.5vmax;
+    padding-top: 3%;
+    color: white;
+    width: 33%;
+    margin: 0%;
+    margin-left: 15%;
+    float: left;
+}
+#copyright a{
+    color: white;
+    text-decoration: none;
+}
+#rightPart{
+    width: 50%;
+    float: right;
+    padding-top: 2%;
+}
+#nightModeBtn{
+    border: 0;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    margin-bottom: 15px;
+    background: none;
+    background-image: url("images/nightIcon.png");
+    padding: 0%;
+}
+#nightModeBtn:hover{
+    opacity: 80%;
+    transition: 0.2s;
+}
+#nightModeBtn:active{
+    opacity: 60%;
+    transition: 0.2s;
+}
+.glow-on-hover {
+  font-family: 'Fjalla One', sans-serif;
+  width: fit-content;
+  height: 50px;
+  border: none;
+  outline: none;
+  margin: 10px;
+  margin-top: 20px;
+  color: #42a6f3;
+  background: #ffffff;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  margin: 20px;
+  font-size: 2vmax;
+  
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover:active {
+  color: #ffffff
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}

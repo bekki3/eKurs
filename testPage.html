@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test time</title>
+</head>
+<body>
+    <h2>English Test</h2>
+    <style>
+        body{
+            text-align: center;
+        }
+        .question{
+            border: 1px solid black;
+            width: 50%;
+            margin: 10px auto;
+            background-color: bisque;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: left;
+        }
+        #btn{
+            border: 2px solid grey;
+            width: 100px;
+            margin: 30px;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        #btn:hover{
+            background-color: grey;
+        }
+        li:hover{
+            background-color: antiquewhite;
+        }
+        li:active {
+            background-color: rgb(148, 148, 148);
+        }
+    </style>
+    <div class="question">
+        <p>1) I ... a student.</p>
+        <li>am</li>
+        <li>is</li>
+        <li>are</li>
+        <li>not</li>
+    </div>
+    <div class="question">
+        <p>2) He ... a doctor.</p>
+        <li>am</li>
+        <li>is</li>
+        <li>are</li>
+        <li>not</li>
+    </div>
+    <div class="question">
+        <p>3) They ... teachers.</p>
+        <li>am</li>
+        <li>not</li>
+        <li>is</li>
+        <li>are</li>
+        
+    </div>
+    <div class="question">
+        <p>4) Anvar is ... smart.</p>
+        <li>am</li>
+        
+        <li>are</li>
+        <li>is</li>
+        <li>not</li>
+    </div>
+    <div class="question">
+        <p>5) ... is a girl.</p>
+        <li>He</li>
+        <li>They</li>
+        <li>Are</li>
+        <li>She</li>
+    </div>
+    <button id="btn" onclick="submit(1)">Submit</button>
+    <button style="height: 36px;" onclick="submit(2)">Download The Certificate</button>
+    <script>
+        let submit = (num)=>{
+            if (num===1) {
+                alert("Your result is: 4");
+            }
+            else if(num===2)
+            {
+                alert("Your certificate downloading");
+            }
+            
+        }
+        
+    </script>
+</body>
+</html>

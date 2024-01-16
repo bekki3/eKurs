@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IELTS Kursi</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body id="htmlBody">
+    <style>
+        #htmlBody{
+            transition: 0.3s;
+            background-image: url("images/ieltsBG.png");
+            background-size:100px;
+        }
+        div p{
+            float: left;
+            color: white;
+            font-size: 24px;
+            padding: 10px;
+            margin: 6px;
+        }
+        div a:hover{
+            opacity: 80%;
+        }
+        #section{
+            background-color: brown;
+
+            width: 100%;
+            height: 60px;
+            transition: .3s;
+        }
+        img{
+            margin-top: 15px;
+            width: 30px;
+        }
+        iframe{
+            margin: 10px;
+            transition: 0.3s;
+            border-radius: 10px;
+            margin: 20px;
+            width: 30vw;
+            height: 15vw;
+            min-height: 200px;
+            min-width: 340px;
+        }
+    </style>
+    <div id="section"><p>IELTS Kursi</p>
+    <div> <a href="index.html"><img src="images/houseIcon.png" alt="houseIcon"
+        style="margin-left: 5px;"></a>
+    <button onclick="nightMode()" id="nightModeBtn"></button>
+    </div></div>
+    
+    
+    <br><br>
+
+    <!---->
+    <!---->
+    <div style="height: 300px;"></div>
+    <p style="text-align: center;
+    font-size: 22px;border: 2px solid grey; color: rgb(110, 40, 40);
+    width: fit-content; margin: auto; padding: 10px; background: rgb(255, 255, 255);">
+    IELTS video-kursi ustida ishlanmoqda.
+        Iltimos kuting.
+        Videolarni tezroq ko'rish uchun YouTube 
+        kanalimizga obuna bo'lishingiz mumkin.
+        Agarda siz IELTS o'qituvchisi bo'lsangiz, bizga taklif qoldirishingiz mumkin.
+    </p>
+    <script>
+        let htmlBody=document.querySelector("#htmlBody")
+let nightModeBtn=document.querySelector("#nightModeBtn")
+let section=document.querySelector("#section")
+let num=0;
+function nightMode() {
+    if (num%2===0) {
+    htmlBody.style.backgroundColor="rgb(50,50,50)";
+    nightModeBtn.style.backgroundImage="url(images/dayIcon.png)"
+    section.style.background="rgb(60,60,60)"
+    }
+    else{
+    htmlBody.style.backgroundColor="rgb(255,255,255)";
+    nightModeBtn.style.backgroundImage="url(images/nightIcon.png)"
+    section.style.backgroundImage="url(images/ieltsBg2.jpg)";
+    }
+    num++;
+}
+    </script>
+</body>
+</html>
